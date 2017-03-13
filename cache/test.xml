@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<form:Documents xmlns:form="http://www.abbyy.com/FlexiCapture/Schemas/Export/FormData.xsd" xmlns:addData="http://www.abbyy.com/FlexiCapture/Schemas/Export/AdditionalFormData.xsd">
+	<_国税_通用增值税发票:_国税_通用增值税发票 addData:DocumentState="正确" addData:ImagePath="\\127.0.0.1\OCR\云账坊测试\处理结果\导出\101GF00170100033-001-01.jpg" xmlns:_国税_通用增值税发票="http://www.abbyy.com/FlexiCapture/Schemas/Export/国税_通用增值税发票.xsd">
+		<_文档节段_2 addData:BlockRef="0001">
+			<_FaPiaoDaiMaYS addData:BlockRef="0002" addData:SuspiciousSymbols="0000000000">5100154130</_FaPiaoDaiMaYS>
+			<_FaPiaoHaoMaYS addData:BlockRef="0003" addData:SuspiciousSymbols="11111111">00385596</_FaPiaoHaoMaYS>
+			<_DanZhengMingCheng addData:BlockRef="0004" addData:SuspiciousSymbols="110000000">四川增值税专用发票</_DanZhengMingCheng>
+			<_FaPiaoLianCi addData:BlockRef="0005" addData:SuspiciousSymbols="000">抵扣联</_FaPiaoLianCi>
+			<_FaPiaoJianZhiZhang addData:BlockRef="0006" addData:ImagePath="101GF00170100033-001-01\FaPiaoJianZhiZhang.tif"/>
+			<_FaPiaoDaiMaDY addData:BlockRef="0007" addData:SuspiciousSymbols="1100001100">5100454130</_FaPiaoDaiMaDY>
+			<_FaPiaoHaoMaDY addData:BlockRef="0008" addData:SuspiciousSymbols="00000000">00384696</_FaPiaoHaoMaDY>
+			<_KaiPiaoRiQi addData:BlockRef="0009" addData:SuspiciousSymbols="0000000000">2016-01-01</_KaiPiaoRiQi>
+			<_JiQiBianHao addData:BlockRef="0010" addData:SuspiciousSymbols="1">6</_JiQiBianHao>
+			<_JiaoYanMa addData:BlockRef="0011" addData:SuspiciousSymbols="00">11</_JiaoYanMa>
+			<_GouMaiFangMingCheng addData:BlockRef="0012" addData:SuspiciousSymbols="101111100100">四!11先发科技有限公司</_GouMaiFangMingCheng>
+			<_GouMaiFangNaShuiShiBieHao addData:BlockRef="0013" addData:SuspiciousSymbols="0000000000000">1079056764404</_GouMaiFangNaShuiShiBieHao>
+			<_GouMaiFangDiZhi addData:BlockRef="0014" addData:SuspiciousSymbols="00110111101100">四川绵阳科创园区0艺东衔8号</_GouMaiFangDiZhi>
+			<_GouMaiFangDianHua addData:BlockRef="0015" addData:SuspiciousSymbols="000000000000">0816-7079999</_GouMaiFangDianHua>
+			<_GouMaiFangKaiHuHang addData:BlockRef="0016" addData:SuspiciousSymbols="0100001100111000">中3银行股份有8公司缟阳涪城支行</_GouMaiFangKaiHuHang>
+			<_GouMaiFangZhangHao addData:BlockRef="0017" addData:SuspiciousSymbols="000000000000">123912372612</_GouMaiFangZhangHao>
+			<_MiMaQu addData:BlockRef="0018" addData:SuspiciousSymbols="000000000000000000000000000001000000000000000000000000000000000000000000000000000000000011000000000011000000000">&gt;9&lt;-+/&gt;/2-833*71-23*0*4-+09 465305+8509062*12*&lt;2-276546 +8&lt;75+23++60//9&lt;28&gt;6-21*09/ -80524+390+9/8&lt;473*12&lt;&gt;4223</_MiMaQu>
+			<_XiaoShouMingXi addData:BlockRef="0019">
+				<_MingCheng addData:BlockRef="0020" addData:SuspiciousSymbols="01">机柜</_MingCheng>
+				<_GuiGeXingHao addData:BlockRef="0021" addData:SuspiciousSymbols="00010001000">000«600*600</_GuiGeXingHao>
+				<_DanWei addData:BlockRef="0022" addData:SuspiciousSymbols="0">台</_DanWei>
+				<_ShuLiang addData:BlockRef="0023" addData:SuspiciousSymbols="00">20</_ShuLiang>
+				<_DanJia addData:BlockRef="0024" addData:SuspiciousSymbols="000000000000">1367.5213675</_DanJia>
+				<_JinEBHS addData:BlockRef="0025" addData:SuspiciousSymbols="00000000">27350.43</_JinEBHS>
+				<_ShuiLv addData:BlockRef="0026" addData:SuspiciousSymbols="111">17^</_ShuiLv>
+				<_ShuiE addData:BlockRef="0027" addData:SuspiciousSymbols="0000000">4649.57</_ShuiE>
+			</_XiaoShouMingXi>
+			<_XiaoShouMingXi addData:BlockRef="0028">
+				<_MingCheng addData:BlockRef="0029" addData:SuspiciousSymbols="01">机柜</_MingCheng>
+				<_GuiGeXingHao addData:BlockRef="0030" addData:SuspiciousSymbols="00010001100">000«600»800</_GuiGeXingHao>
+				<_DanWei addData:BlockRef="0031" addData:SuspiciousSymbols="0">台</_DanWei>
+				<_ShuLiang addData:BlockRef="0032" addData:SuspiciousSymbols="0">8</_ShuLiang>
+				<_DanJia addData:BlockRef="0033" addData:SuspiciousSymbols="000000000000">1623.9316239</_DanJia>
+				<_JinEBHS addData:BlockRef="0034" addData:SuspiciousSymbols="00000000">12991.45</_JinEBHS>
+				<_ShuiLv addData:BlockRef="0035" addData:SuspiciousSymbols="111">17^</_ShuiLv>
+				<_ShuiE addData:BlockRef="0036" addData:SuspiciousSymbols="0000000">2208.55</_ShuiE>
+			</_XiaoShouMingXi>
+			<_XiaoShouMingXi addData:BlockRef="0037">
+				<_MingCheng addData:BlockRef="0038" addData:SuspiciousSymbols="01">机柜</_MingCheng>
+				<_GuiGeXingHao addData:BlockRef="0039" addData:SuspiciousSymbols="000000010000">000*600*1000</_GuiGeXingHao>
+				<_DanWei addData:BlockRef="0040" addData:SuspiciousSymbols="1">台</_DanWei>
+				<_ShuLiang addData:BlockRef="0041" addData:SuspiciousSymbols="0">1</_ShuLiang>
+				<_DanJia addData:BlockRef="0042" addData:SuspiciousSymbols="000000000000">2525.6410256</_DanJia>
+				<_JinEBHS addData:BlockRef="0043" addData:SuspiciousSymbols="0000000">2525.64</_JinEBHS>
+				<_ShuiLv addData:BlockRef="0044" addData:SuspiciousSymbols="111">17^</_ShuiLv>
+				<_ShuiE addData:BlockRef="0045" addData:SuspiciousSymbols="000000">429.36</_ShuiE>
+			</_XiaoShouMingXi>
+			<_HeJiJinEBHS addData:BlockRef="0046" addData:SuspiciousSymbols="00000000">42867.52</_HeJiJinEBHS>
+			<_HeJiShuiE addData:BlockRef="0047" addData:SuspiciousSymbols="0000000">7287.48</_HeJiShuiE>
+			<_JiaShuiHeJiDX addData:BlockRef="0048" addData:SuspiciousSymbols="101101101">伍万零壹佰伍拾伍整</_JiaShuiHeJiDX>
+			<_JiaShuiHeJiXX addData:BlockRef="0049" addData:SuspiciousSymbols="00000000">50155.00</_JiaShuiHeJiXX>
+			<_XiaoShouFangMingCheng addData:BlockRef="0050" addData:SuspiciousSymbols="11011111111">01广为通僅有霞公II</_XiaoShouFangMingCheng>
+			<_XiaoShouFangShuiHao addData:BlockRef="0051" addData:SuspiciousSymbols="000000000000000000">915101157208509863</_XiaoShouFangShuiHao>
+			<_XiaoShouFangDiZhi addData:BlockRef="0052" addData:SuspiciousSymbols="1111111111111111111111111000010000001001011">成藝市瀛江区虞藝爾鹌两摩科技产嚢鼷东区灌枉024， 028-82688774 7 ？入</_XiaoShouFangDiZhi>
+			<_XiaoShouFangDianHua addData:BlockRef="0053"/>
+			<_XiaoShouFangKaiHuHang addData:BlockRef="0054" addData:SuspiciousSymbols="0111111110">成拥银行光华大进支行</_XiaoShouFangKaiHuHang>
+			<_XiaoShouFangZhangHao addData:BlockRef="0055" addData:SuspiciousSymbols="00000000000000000000">60012002219462100013</_XiaoShouFangZhangHao>
+			<_BeiZhu addData:BlockRef="0056" addData:ImagePath="101GF00170100033-001-01\BeiZhu.tif"/>
+			<_FaPiaoYinZhiPiHanYinZhiGongSi addData:BlockRef="0057" addData:SuspiciousSymbols="101001100111000010100">悦总函〔2015〕34丨号西安印紗有很公司</_FaPiaoYinZhiPiHanYinZhiGongSi>
+			<_ShouKuanRen addData:BlockRef="0058"/>
+			<_FuHeRen addData:BlockRef="0059"/>
+			<_KaiPiaoRen addData:BlockRef="0060" addData:SuspiciousSymbols="11110111">5雄‘' 必斤…</_KaiPiaoRen>
+			<_XiaoShouDanWeiGaiZhangLeiXing addData:BlockRef="0061" addData:ImagePath="101GF00170100033-001-01\XiaoShouDanWeiGaiZhangLeiXing.tif"/>
+			<_GaiZhangDanWeiMingCheng addData:BlockRef="0062" addData:ImagePath="101GF00170100033-001-01\GaiZhangDanWeiMingCheng.tif"/>
+			<_GaiZhangDanWeiShuiHao addData:BlockRef="0063" addData:ImagePath="101GF00170100033-001-01\GaiZhangDanWeiShuiHao.tif"/>
+		</_文档节段_2>
+		<addData:AdditionalInfo>
+			<addData:BlocksInfo>
+				<addData:Blocks Id="0001">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="0" Right="1571" Top="0" Bottom="997"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0002">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="250" Right="489" Top="109" Bottom="142"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0003">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="1134" Right="1336" Top="108" Bottom="143"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0004">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="585" Right="976" Top="70" Bottom="129"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0005">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="1481" Right="1534" Top="286" Bottom="738"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0006">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="670" Right="888" Top="80" Bottom="224"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0007">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="1341" Right="1451" Top="122" Bottom="140"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0008">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="1325" Right="1446" Top="152" Bottom="172"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0009">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="1253" Right="1402" Top="190" Bottom="214"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0010">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="59" Right="426" Top="190" Bottom="234"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0011">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="0" Right="651" Top="180" Bottom="240"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0012">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="329" Right="551" Top="255" Bottom="276"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0013">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="373" Right="623" Top="290" Bottom="310"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0014">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="329" Right="811" Top="326" Bottom="346"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0015">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="329" Right="811" Top="326" Bottom="346"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0016">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="329" Right="871" Top="363" Bottom="384"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0017">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="329" Right="871" Top="363" Bottom="384"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0018">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="927" Right="1422" Top="211" Bottom="383"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0019">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="94" Right="1472" Top="417" Bottom="459"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0020">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="94" Right="452" Top="417" Bottom="459"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0021">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="452" Right="629" Top="417" Bottom="459"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0022">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="629" Right="713" Top="417" Bottom="459"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0023">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="713" Right="854" Top="417" Bottom="459"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0024">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="854" Right="993" Top="417" Bottom="459"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0025">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="993" Right="1202" Top="417" Bottom="459"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0026">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="1202" Right="1274" Top="417" Bottom="459"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0027">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="1274" Right="1472" Top="417" Bottom="459"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0028">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="94" Right="1472" Top="459" Bottom="486"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0029">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="94" Right="452" Top="459" Bottom="486"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0030">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="452" Right="629" Top="459" Bottom="486"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0031">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="629" Right="713" Top="459" Bottom="486"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0032">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="713" Right="854" Top="459" Bottom="486"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0033">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="854" Right="993" Top="459" Bottom="486"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0034">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="993" Right="1202" Top="459" Bottom="486"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0035">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="1202" Right="1274" Top="459" Bottom="486"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0036">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="1274" Right="1472" Top="459" Bottom="486"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0037">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="94" Right="1472" Top="486" Bottom="512"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0038">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="94" Right="452" Top="486" Bottom="512"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0039">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="452" Right="629" Top="486" Bottom="512"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0040">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="629" Right="713" Top="486" Bottom="512"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0041">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="713" Right="854" Top="486" Bottom="512"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0042">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="854" Right="993" Top="486" Bottom="512"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0043">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="993" Right="1202" Top="486" Bottom="512"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0044">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="1202" Right="1274" Top="486" Bottom="512"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0045">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="1274" Right="1472" Top="486" Bottom="512"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0046">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="1065" Right="1188" Top="667" Bottom="686"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0047">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="1351" Right="1458" Top="666" Bottom="685"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0048">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="478" Right="765" Top="715" Bottom="738"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0049">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="1174" Right="1466" Top="701" Bottom="745"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0050">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="329" Right="552" Top="767" Bottom="787"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0051">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="358" Right="713" Top="801" Bottom="823"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0052">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="327" Right="930" Top="836" Bottom="870"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0053">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="327" Right="930" Top="836" Bottom="870"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0054">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="328" Right="818" Top="869" Bottom="890"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0055">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="328" Right="818" Top="869" Bottom="890"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0056">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="926" Right="1571" Top="751" Bottom="893"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0057">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="6" Right="90" Top="236" Bottom="894"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0058">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="216" Right="262" Top="902" Bottom="924"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0059">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="565" Right="729" Top="888" Bottom="944"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0060">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="898" Right="1020" Top="897" Bottom="936"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0061">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="783" Right="1571" Top="646" Bottom="997"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0062">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="783" Right="1571" Top="646" Bottom="997"/>
+					</addData:Block>
+				</addData:Blocks>
+				<addData:Blocks Id="0063">
+					<addData:Block PageIndex="1">
+						<addData:Rect Left="783" Right="1571" Top="646" Bottom="997"/>
+					</addData:Block>
+				</addData:Blocks>
+			</addData:BlocksInfo>
+		</addData:AdditionalInfo>
+	</_国税_通用增值税发票:_国税_通用增值税发票>
+</form:Documents>
