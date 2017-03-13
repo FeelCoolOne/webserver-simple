@@ -1,18 +1,26 @@
-#coding:utf-8
+# coding:utf-8
 import os
 import sys
+import xml.etree.cElementTree as ET
 '''
 if sys.getdefaultencoding() != 'utf-8':
     reload(sys)
     sys.setdefaultencoding('utf-8')
 '''
 
+
 class out(object):
     '''out put xml'''
-    def __init__(self, data, name):
+    def __init__(self, name):
         self.cache_dir = 'xml'
         self.name_xml = name
         self.data = data
+        self.root = ET.Element('root')
+        self.errorcode = ET.SubElement(self.root, 'errorcode')
+        self.errormsg = ET.SubElement(self.root, 'errormsg')
+        self.recogContent = ET.SubElement(self.root, 'recogContent')
+        self.errorcode.text = '0'
+        self.errormsg.text = 'null'
         self.dictionary = {
             u'单据名称': 'DanJuMingCheng',
             u'银行名称': 'YinHangMingCheng',
@@ -82,33 +90,26 @@ class out(object):
             u'交易码': 'JiaoYiMa',
         }
 
-    def createXml(self, data):
-        """
-        创建XML格式文件
-        data: [{'\u65b9\u5f00\u6237\u884c\u53ca\u53f7':'15107615112016931', 'width': 777, 'top: 1828, "height": 75, "left": 582}
-           , {'\u65b9\u5f00\u6237\u884c\u53ca\u53f7':'15107615112016931', 'width': 777, 'top: 1828, "height": 75, "left": 582}]
-        """
-        root = """<?xml version="1.0" encoding="utf-8"?>\n"""
-        root += u"""<root><type>银行回执单</type>\n<value>{}</value></root>"""
-        element = u''
-        for lineelement in data:
-            label = filter(lambda x: x not in ['width', 'top', 'height', 'left'], lineelement.keys())[0]
+    def create_XML(self, data):
+        for line_dict in data:
+            if len(line_dict.keys()) != 5:
+                raise Exception('take 5 element')
+            label = filter(lambda x: x not in ['width', 'top', 'height', 'left'], line_dict.keys())[0]
             key = self.dictionary.get(label)
-            text = lineelement[label]
-            # location = lineelement['location']
-            height, left, top, width = lineelement['height'], lineelement['left'], lineelement['top'], lineelement['width']
-            element += u'<{} height="{}" left="{}"  top="{}" width="{}" >{}</{}>\n'.format(key, height, left, top, width, text, key)
-        return root.format(element)
+            text = line_dict[label]
+            line_dict.pop(label)
+            # height, left, top, width = lineelement['height'], lineelement['left'], lineelement['top'], lineelement['width']
+            element = ET.SubElement(self.recogContent, key, line_dict)
+            element.text = text
 
-    def process(self):
-        xml = self.createXml(self.data)
-        with open(os.path.join(self.cache_dir, self.name_xml), 'w') as f:
-            print xml.encode('utf-8')
-            f.write(xml.encode('utf-8'))
+    def process(self, data):
+        self.create_XML(data)
+        xml = ET.ElementTree(self.root)
+        xml.write(os.path.join(self.cache_dir, self.name_xml), encoding='utf-8', xml_declaration=True, default_namespace=None)
         return 0
 
 
 if __name__ == '__main__':
-    data = [{u'单价': '15107615112016931', 'width': 7, 'top': 18, "height": 7, "left": 82},
-            {u'交易方式': '15107615112016931', 'width': 777, 'top': 1828, "height": 75, "left": 582}]
-    out(data, 'test.xml').process()
+    data = [{u'单价': '15107615112016931', 'width': '7', 'top': '18', "height": '7', "left": '82'},
+            {u'交易方式': u'你好', 'width': '777', 'top': '1828', "height": '75', "left": '582'}]
+    out('test.xml').process(data)
