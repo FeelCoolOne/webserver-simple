@@ -2,6 +2,7 @@
 import os
 import sys
 import xml.etree.cElementTree as ET
+import time
 '''
 if sys.getdefaultencoding() != 'utf-8':
     reload(sys)
@@ -12,7 +13,7 @@ if sys.getdefaultencoding() != 'utf-8':
 class out(object):
     '''out put xml'''
     def __init__(self, name):
-        self.cache_dir = 'xml'
+        self.cache_dir = './cache/xml'
         self.name_xml = name
         self.data = data
         self.root = ET.Element('root')
@@ -110,6 +111,10 @@ class out(object):
 
 
 if __name__ == '__main__':
+    if len(sys.argv) != 2:
+        raise Exception('python output.py orderno')
+    orderno = sys.argv[1]
     data = [{u'单价': '15107615112016931', 'width': '7', 'top': '18', "height": '7', "left": '82'},
             {u'交易方式': u'你好', 'width': '777', 'top': '1828', "height": '75', "left": '582'}]
-    out('test.xml').process(data)
+    time.sleep(15)
+    out('{0}.xml'.format(orderno)).process(data)

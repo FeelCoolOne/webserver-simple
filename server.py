@@ -4,6 +4,9 @@ import web
 import json
 import base64
 import imghdr
+import subprocess
+import traceback
+
 
 web.config.debug = False
 render = web.template.render('templates/')
@@ -13,14 +16,19 @@ class model:
     """docstring for index"""
     def __init__(self):
         self.errormsg = ['OK', 'Parameter Error', 'Coding Format Error', 'Internal Error', 'Image Error']
+        self.xml_file_path = './cache/xml'
+        # self.img_file_path = './cache/img'
+        self.img_file_path = './cache'
+        self.cache_dir = './cache'
 
     def GET(self):
+        orderno = web.input(orderno='0').orderno
         result = {}
-        xml_filename = 'test.xml'
-        img_filename = 'result.png'
-        file_path = r'./cache'
-        xml_file = os.path.join(file_path, xml_filename)
-        img_file = os.path.join(file_path, img_filename)
+        xml_file = os.path.join(self.xml_file_path, '{0}.xml'.format(orderno))
+        img_file = os.path.join(self.img_file_path, '{0}.png'.format(orderno))
+        print orderno
+        print xml_file
+        print img_file
         if os.path.isfile(xml_file) is True and os.path.isfile(img_file) is True:
             with open(xml_file, 'r') as f:
                 result['xml'] = f.read()
@@ -41,21 +49,23 @@ class model:
         status = 0
         if 'imagedata' not in body or 'orderno' not in body:
             status = 1
-        image = ''
-        try:
-            image = base64.b64decode(body['imagedata'])
-        except Exception, _:
-            status = 2
-        file = r'./cache/cache.png'
+        else:
+            image = ''
+            try:
+                image = base64.b64decode(body['imagedata'])
+            except Exception, _:
+                status = 2
+        orderno = body['orderno']
+        file = '{0}/{1}.png'.format(self.cache_dir, orderno)
         try:
             with open(file, 'wb') as f:
                 f.write(image)
+            subprocess.Popen(['python', 'output.py', orderno])
         except Exception, _:
             status = 3
         if imghdr.what(file) is None:
             status = 4
         return json.dumps({'errorcode': status, 'errormsg': self.errormsg[status]})
-
 
 class upload:
     """docstring for index"""
@@ -80,8 +90,24 @@ class upload:
         return 'OK'
 
 
+class cache_clean:
+
+    def GET(self):
+        try:
+            os.chdir('./cache/xml')
+            for xml in os.listdir('.'):
+                os.remove(xml)
+        except Exception, e:
+            traceback.print_exc()
+            return '{0}'.format(e)
+        os.chdir('../..')
+        return 'OK'
+
+
 urls = ('/', 'upload',
-        '/api', 'model')
+        '/api', 'model',
+        '/clear', 'cache_clean')
+
 
 
 if __name__ == '__main__':
