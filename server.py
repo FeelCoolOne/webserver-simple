@@ -26,9 +26,6 @@ class model:
         result = {}
         xml_file = os.path.join(self.xml_file_path, '{0}.xml'.format(orderno))
         img_file = os.path.join(self.img_file_path, '{0}.png'.format(orderno))
-        print orderno
-        print xml_file
-        print img_file
         if os.path.isfile(xml_file) is True and os.path.isfile(img_file) is True:
             with open(xml_file, 'r') as f:
                 result['xml'] = f.read()
@@ -49,12 +46,13 @@ class model:
         status = 0
         if 'imagedata' not in body or 'orderno' not in body:
             status = 1
-        else:
-            image = ''
-            try:
-                image = base64.b64decode(body['imagedata'])
-            except Exception, _:
-                status = 2
+            return json.dumps({'errorcode': status, 'errormsg': self.errormsg[status]})
+        image = ''
+        try:
+            image = base64.b64decode(body['imagedata'])
+        except Exception, _:
+            status = 2
+            return json.dumps({'errorcode': status, 'errormsg': self.errormsg[status]})
         orderno = body['orderno']
         file = '{0}/{1}.png'.format(self.cache_dir, orderno)
         try:
@@ -63,6 +61,7 @@ class model:
             subprocess.Popen(['python', 'output.py', orderno])
         except Exception, _:
             status = 3
+            return json.dumps({'errorcode': status, 'errormsg': self.errormsg[status]})
         if imghdr.what(file) is None:
             status = 4
         return json.dumps({'errorcode': status, 'errormsg': self.errormsg[status]})
