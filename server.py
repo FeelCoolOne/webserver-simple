@@ -67,6 +67,7 @@ class model:
             status = 4
         return json.dumps({'errorcode': status, 'errormsg': self.errormsg[status]})
 
+
 class upload:
     """docstring for index"""
 
