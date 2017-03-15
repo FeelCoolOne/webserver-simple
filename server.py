@@ -6,7 +6,7 @@ import base64
 import imghdr
 import subprocess
 import traceback
-
+# TODO: periodly clear session directory
 
 web.config.debug = False
 render = web.template.render('templates/')
@@ -41,30 +41,40 @@ class model:
         root += u"""<root><errorcode>1</errorcode></root>"""
         return root
 
+    def post_back(self, status):
+        return json.dumps({'errorcode': status, 'errormsg': self.errormsg[status]})
+
     def POST(self):
         body = json.loads(web.data())
         status = 0
         if 'imagedata' not in body or 'orderno' not in body:
             status = 1
-            return json.dumps({'errorcode': status, 'errormsg': self.errormsg[status]})
+            return self.post_back(status)
         image = ''
         try:
             image = base64.b64decode(body['imagedata'])
         except Exception, _:
+            # traceback.print_exc()
             status = 2
-            return json.dumps({'errorcode': status, 'errormsg': self.errormsg[status]})
+            return self.post_back(status)
         orderno = body['orderno']
         file = '{0}/{1}.png'.format(self.cache_dir, orderno)
         try:
             with open(file, 'wb') as f:
                 f.write(image)
+        except Exception, _:
+            status = 3
+            return self.post_back(status)
+        # TODO: remove '4' file which is not image
+        if imghdr.what(file) is None:
+            status = 4
+            return self.post_back(status)
+        try:
             subprocess.Popen(['python', 'output.py', orderno])
         except Exception, _:
             status = 3
-            return json.dumps({'errorcode': status, 'errormsg': self.errormsg[status]})
-        if imghdr.what(file) is None:
-            status = 4
-        return json.dumps({'errorcode': status, 'errormsg': self.errormsg[status]})
+            return self.post_back(status)
+        return self.post_back(status)
 
 
 class upload:
