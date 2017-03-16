@@ -24,6 +24,8 @@ class model:
     def GET(self):
         orderno = web.input(orderno='0').orderno
         result = {}
+        with open('{0}/pid.txt'.format(self.cache_dir), 'r') as f:
+            orderno = f.readline()
         xml_file = os.path.join(self.xml_file_path, '{0}.xml'.format(orderno))
         img_file = os.path.join(self.img_file_path, '{0}.png'.format(orderno))
         if os.path.isfile(xml_file) is True and os.path.isfile(img_file) is True:
@@ -70,6 +72,9 @@ class model:
             status = 4
             return self.post_back(status)
         try:
+            # just one person
+            with open('{0}/pid.txt'.format(self.cache_dir), 'w') as f:
+                f.write(orderno)
             subprocess.Popen(['python', 'output.py', orderno])
         except Exception, _:
             status = 3
@@ -117,7 +122,6 @@ class cache_clean:
 urls = ('/', 'upload',
         '/api', 'model',
         '/clear', 'cache_clean')
-
 
 
 if __name__ == '__main__':
